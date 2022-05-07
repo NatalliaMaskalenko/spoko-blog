@@ -1,16 +1,15 @@
-.section__categories{
-display: flex;
-
-
-}
 .categories{    
-    max-width: 468px;
+    display: none;
+
+@media screen and (min-width: 1300px) {
+    flex-basis: calc(100% / 3 * 1);
+    display: block;
     margin-left: 22px;
-    padding-top: 59px;
-    // padding-bottom: 78px;
-    padding-left: 64px;
-    padding-right: 54px;
-}
+    padding-top: 30px;
+    padding-left: 34px;
+    padding-right: 24px;
+    max-width: 448px;
+}}
 
 .categories__title{
     font-family: 'Futura PT';

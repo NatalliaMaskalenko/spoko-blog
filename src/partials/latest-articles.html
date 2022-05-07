@@ -1,8 +1,22 @@
 <section>
   <h2>Latest articles</h2>
-  <ul>
+  <ul class="list">
     <li>
-      <img src="" alt="" />
+      <picture>
+        <source
+          srcset="
+            /images/living_abroad/desktop/living_abroad_3-desktop@1x.jpg 1x,
+            /images/living_abroad/desktop/living_abroad_3-desktop@2x.jpg 2x,
+            /images/living_abroad/desktop/living_abroad_3-desktop@3x.jpg 3x
+          "
+          media="(min-width: 1300px)"
+        />
+        <img
+          class=""
+          src="./images/living_abroad/desktop/living_abroad_3-desktop@1x.jpg"
+          alt="glasses"
+        />
+      </picture>
       <div>
         <h3 class="title--category">Living abroad, This is interesting</h3>
         <h2 class="title--card">Yes or pass? Pros and cons of moving to Germany</h2>
@@ -10,7 +24,21 @@
       </div>
     </li>
     <li>
-      <img src="" alt="" />
+      <picture>
+        <source
+          srcset="
+            /images/living_abroad/desktop/living_abroad_4-desktop@1x.jpg 1x,
+            /images/living_abroad/desktop/living_abroad_4-desktop@2x.jpg 2x,
+            /images/living_abroad/desktop/living_abroad_4-desktop@3x.jpg 3x
+          "
+          media="(min-width: 1300px)"
+        />
+        <img
+          class="article__img"
+          src="./images/living_abroad/desktop/living_abroad_4-desktop@1x.jpg"
+          alt="glasses"
+        />
+      </picture>
       <div>
         <h3 class="title--category">Living abroad, This is interesting</h3>
         <h2 class="title--card">“How much do you make?” How to talk about salary with friends?</h2>
@@ -18,7 +46,21 @@
       </div>
     </li>
     <li>
-      <img src="" alt="" />
+      <picture>
+        <source
+          srcset="
+            /images/uncategorized/desktop/uncategorized_1-desktop@1x.jpg 1x,
+            /images/uncategorized/desktop/uncategorized_1-desktop@2x.jpg 2x,
+            /images/uncategorized/desktop/uncategorized_1-desktop@3x.jpg 3x
+          "
+          media="(min-width: 1300px)"
+        />
+        <img
+          class="article__img"
+          src="./images/uncategorized/desktop/uncategorized_1-desktop@1x.jpg"
+          alt="glasses"
+        />
+      </picture>
       <div>
         <h3 class="title--category">Uncategorized</h3>
         <h2 class="title--card">Saving money – how and why?</h2>
@@ -26,10 +68,10 @@
       </div>
     </li>
   </ul>
-  <button>
+  <button type="button">
     <span> View more</span>
     <svg class="">
-      <use href="../images/icons/symbol-defs.svg#icon-Vector-537"></use>
+      <use href="/images/icons/symbol-defs.svg#icon-Vector-537"></use>
     </svg>
   </button>
 </section>
