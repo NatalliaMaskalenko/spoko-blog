@@ -15,21 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <!-- <div class="container">
-      <include src="./partials/navigation.html"></include>
-    </div>
-    <div class="container section__categories">
-      <include src="./partials/card-main_category.html"></include>
-      <include src="./partials/categories.html"></include>
-    </div>
-    <div class="container">
-      <include src="./partials/cards.html"></include>
-      <include src="./partials/card-main_news.html"></include>
-      <include src="./partials/cards-thats-interesting.html"></include>
-      <include src="./partials/latest-articles.html"></include>
-    </div>
-    <div class="container"></div> -->
-
     <div class="container">
       <include src="./partials/navigation.html"></include>
       <div class="section__categories">
@@ -42,14 +27,24 @@
         <include src="./partials/cards-dolce-vita.html"></include>
       </div>
       <include src="./partials/card-payment.html"></include>
-      <include src="./partials/card-travel.html"></include>
-      <div>
+      <div class="cards--double">
+        <include src="./partials/card-travel.html"></include>
         <include src="./partials/card-financial-anxiety.html"></include>
-        <include src="./partials/card-moving-to-germany.html"></include>
       </div>
-
-      <include src="./partials/card-how-to-talk.html"></include>
-      <include src="./partials/card-saving-money.html"></include>
+      <div class="article__card--mobile">
+        <h2 class="text__latest-articles">Latest articles</h2>
+        <div>
+          <include src="./partials/card-moving-to-germany.html"></include>
+          <include src="./partials/card-how-to-talk.html"></include>
+          <include src="./partials/card-saving-money.html"></include>
+        </div>
+      </div>
+      <button class="button" type="button">
+        <span class="button__text"> View more</span>
+        <svg class="button__svg">
+          <use href="/images/icons/symbol-defs.svg#icon-Vector-537"></use>
+        </svg>
+      </button>
     </div>
     <script src="./index.js"></script>
   </body>

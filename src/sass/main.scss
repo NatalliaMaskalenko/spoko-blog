@@ -1,31 +1,15 @@
-@import "./utils/variables";
 @import "./base/common";
 @import "./base/container";
-@import "./components/title";
-@import "./components/categories";
-@import "./components/card-main_category";
-@import "./layouts/navigation";
-
-
-@import "./layouts/cards-thats-interesting";
-@import "./layouts/latest-articles";
-
-
-
-@import "./layouts/cards-row";
-@import "./layouts/card-billboard";
-@import "./layouts/section__categories";
-
+@import "./base/fonts";
 @import "./components/article";
-
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-// @import "./components/article";
-
+@import "./components/card-main_category";
+@import "./components/categories";
+@import "./components/title";
+@import "./layouts/card-billboard";
+@import "./layouts/cards-double";
+@import "./layouts/cards-row";
+@import "./layouts/latest-articles";
+@import "./layouts/navigation";
+@import "./layouts/section__categories";
+@import "./layouts/button";
+@import "./utils/variables";

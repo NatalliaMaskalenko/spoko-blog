@@ -79,6 +79,30 @@ font-family: 'Futura PT Book';
     }
 }
 
+.text__latest-articles{
+    @media screen and (min-width: 1300px) {
+        font-family: 'Futura PT Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 1.1;
+    }
+}
+
+.button__text{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    color: var(--color-link-categories);
+
+    @media screen and (min-width: 1300px) {
+    font-size: 26px;
+    line-height: 1.3;
+    }
+}
+
 .text__desctop{
     display: none;
 
